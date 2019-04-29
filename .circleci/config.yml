@@ -9,7 +9,6 @@ build:
       - run: echo "A first build in CircleCI"
       - run: sleep 10
 two:
-build:
     docker:
       - image: circleci/ruby:2.4.1
     steps:
