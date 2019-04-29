@@ -16,8 +16,8 @@ jobs:
       - run: echo "A second hello"
       - run: sleep 15
       
-workflows:
+workflows: 
   version: 2
-    jobs:
+    jobs: 
       - "one"
       - "two"
